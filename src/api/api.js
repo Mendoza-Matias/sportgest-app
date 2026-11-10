@@ -1,7 +1,7 @@
 import { academies, students } from "../data/seed";
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
-const ENV = import.meta.env.VITE_ENV || 'dev';
+const API_URL = import.meta.env.API_URL || 'http://localhost:8080/api';
+const ENV = import.meta.env.ENV || 'dev';
 
 export const fetchData = async (endpoint) => {
     if (ENV === 'dev') {
