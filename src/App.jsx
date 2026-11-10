@@ -1,16 +1,13 @@
-import { useState } from 'react'
+import { Route, Routes } from 'react-router'
+import AcademyHome from './components/AcademyHome'
+import AcademyDetail from './components/AcademyDetail'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <main className='app'>
-      <h1>SportGest</h1>
-      <p>Base del proyecto con Vite + React.</p>
-      <button type='button' onClick={() => setCount((count) => count + 1)}>
-        Contador: {count}
-      </button>
-    </main>
+    <Routes>
+      <Route path='/' element={<AcademyHome />} />
+      <Route path='/academies/:id' element={<AcademyDetail />} />
+    </Routes>
   )
 }
 
