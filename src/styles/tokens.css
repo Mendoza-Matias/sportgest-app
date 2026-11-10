@@ -1,0 +1,39 @@
+/* colores, espaciado, radios */
+:root {
+    /* Color - Racing orange and electric blue */
+    --color-bg: #F4F6F9;
+    --color-surface: #FFFFFF;
+    --color-text: #17243A;
+    --color-muted: #637187;
+    --color-border: #DCE3ED;
+    --color-primary: #C2410C;
+    --color-on-primary: #FFFFFF;
+
+    /* Primary variations */
+    --color-primary-hover: #9A3412;
+    --color-primary-light: #8f8d8c;
+    --color-accent: #1D4ED8;
+
+    /* Spacing: 4px scale */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    /* Shape */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --shadow-sm: 0 1px 3px rgb(23 36 58 / 7%);
+    --shadow-md: 0 8px 24px rgb(23 36 58 / 10%);
+
+    /* Typography */
+    --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.25rem;
+
+    /* Layout */
+    --container: 1100px;
+}
